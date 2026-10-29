@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Halloween Special: Witches & Horror Stories</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#14091f;--card:#2d1748;--ink:#f3ead8;--mut:#b9a9d6;--or:#ff8a1f;--or2:#c2570c;--li:#c9b3ff;--line:#4a2d72;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14091f}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:radial-gradient(ellipse at 80% 0,#3b1a63,var(--bg) 55%) fixed;color:var(--ink);font:17px/1.6 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:.1em 0;line-height:1.05}
+h1{font-size:clamp(2.6rem,8vw,5.6rem);color:var(--or)}h2{font-size:clamp(2rem,5vw,3.2rem);color:var(--or)}h3{font-size:1.45rem;color:var(--li)}
+nav{position:sticky;top:0;z-index:5;background:#0e0618ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);display:flex;gap:4px;padding:10px 14px;overflow-x:auto;white-space:nowrap;align-items:center}
+nav a{color:var(--mut);text-decoration:none;font-size:.85rem;padding:4px 10px;border-radius:99px;font-weight:500}nav a:hover{color:var(--or)}
+nav button{margin-left:auto;flex:none}
+section{max-width:1000px;margin:0 auto;padding:70px 22px}
+.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;text-align:center;align-items:center}
+.big{font-size:4.5rem;filter:drop-shadow(0 0 25px #ff8a1f88)}
+.k{text-transform:uppercase;letter-spacing:.25em;font-size:.72rem;color:var(--li)}
+.sub{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.6rem;color:var(--mut)}
+.g{display:grid;gap:14px;margin-top:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.b{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.b.o{border-color:var(--or2);background:linear-gradient(160deg,#3a1d5e,#2a1342)}
+.hint{color:var(--mut);font-size:.9rem;font-style:italic}
+textarea,input{width:100%;background:#1c0d2e;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 11px;font:inherit;margin-top:8px}
+textarea{min-height:70px;resize:vertical}textarea:focus,input:focus{outline:2px solid var(--or)}
+a{color:var(--or);font-weight:600;word-break:break-all}
+.btn{background:var(--or);color:#2a0f00;border:0;border-radius:99px;padding:8px 18px;font:600 .95rem Inter;cursor:pointer;text-decoration:none;display:inline-block}.btn.gh{background:transparent;color:var(--li);border:1px solid var(--line)}
+.w{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:8px 24px;margin-top:14px}
+.w p{margin:0;padding:8px 0;border-bottom:1px solid var(--line);font-size:.95rem}.w b{color:var(--or)}.w i{color:var(--mut)}
+.tl{border-left:2px solid var(--or2);margin:14px 0 0 8px;padding-left:22px}
+.tl div{position:relative;margin-bottom:12px}.tl div:before{content:"";position:absolute;left:-29px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--or)}
+.tl b{color:var(--or);font-family:"Cormorant Garamond",serif;font-size:1.3rem;margin-right:8px}
+.chips span{display:inline-block;background:#3a1d5e;border-radius:99px;padding:4px 12px;margin:3px;font-size:.9rem}
+.rev{display:none}.rev.on{display:block}
+.tn{display:none;margin-top:18px;border-left:4px solid var(--or);background:#0e0618;padding:12px 16px;border-radius:0 12px 12px 0;font-size:.92rem}
+body.t .tn{display:block}.tn:before{content:"TEACHER · ";color:var(--or);font-weight:600;letter-spacing:.1em}
+.tm{font-family:"Cormorant Garamond",serif;font-size:4rem;color:var(--or);text-align:center}
+.q{margin:6px 0 0}.fl{cursor:pointer;min-height:150px;display:flex;flex-direction:column;justify-content:center;text-align:center;transition:.3s}.fl:hover{border-color:var(--or)}.fl .bk{display:none;text-align:left}.fl.on .ft{display:none}.fl.on .bk{display:block}.fl .ft{font-family:"Cormorant Garamond",serif;font-size:1.9rem;color:var(--or)}.fl small{display:block;color:var(--mut);font-style:italic;margin-top:6px}.fl .tag{font-size:.7rem;color:var(--li);border:1px solid var(--line);border-radius:99px;padding:1px 8px}
+</style></head><body>
+<nav><a href="#top">Start</a><a href="#warm">Warm-up</a><a href="#words">Words</a><a href="#dare">Dare</a><a href="#hist">History</a><a href="#women">Witches &amp; Women</a><a href="#hour">Witching Hour</a><a href="#reddit">Reddit</a><a href="#rank">Top 3</a><a href="#final">Final</a><button class="btn gh" onclick="document.body.classList.toggle('t')">Teacher notes</button></nav>
+
+<section class="hero" id="top"><div class="big">🕯️🌙🎃</div><div class="k">Haunted Classroom · Halloween Special</div><h1>WITCHES &amp; HORROR STORIES</h1><p class="sub">Some stories are better left untold…</p><p class="hint">B2 → C1 · ≈ 60 min · scroll down to enter</p><div class="tn">Dim the lights, share your screen and read the subtitle slowly. Flow: Warm-up 6′ · Words 6′ · Dare 6′ · History 10′ · Witches &amp; Women 12′ · Witching Hour 7′ · Reddit + ranking 15′ · Final 6′. Lengthen whichever discussion is flowing best. Use the “Teacher notes” button to hide or show notes before sharing.</div></section>
+
+<section id="warm"><div class="k">I · Warm-up · 6 min</div><h2>Tell me about you and fear.</h2>
+<div class="g"><div class="b">Do you enjoy horror stories, or do you prefer psychological thrillers?<textarea placeholder="Develop it: why? for example?"></textarea></div><div class="b">Have you ever experienced something you couldn’t explain?<textarea></textarea></div><div class="b">Do you believe fear is something we learn or something we’re born with?<textarea></textarea></div><div class="b">What makes a story genuinely scary: what you see or what you imagine?<textarea></textarea></div><div class="b">If you could spend Halloween anywhere, where would you go?<textarea></textarea></div></div>
+<p class="hint">Stretch your answers: because… · for instance… · on the other hand…</p>
+<div class="tn"><b>Goal:</b> spontaneous speaking. Choose 3 of 5. If she answers in one line, ask “What makes you say that?”. Open topics: fear learned vs. innate; Gothic literature and suggestion vs. gore. Note recurring errors silently.</div></section>
+
+<section id="words"><div class="k">II · The Language of Fear · 6 min</div><h2>Words you’ll want tonight</h2><p class="hint">Guess the meaning first, then tap the card. Use at least three of these words during the lesson.</p><div class="g" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))"><div class="b fl" onclick="this.classList.toggle('on')"><div class="ft">eerie<small>tap to flip</small></div><div class="bk"><h3>eerie</h3>strange and a little frightening, often quiet.<small>“The empty street felt eerie after midnight.”</small><span class="tag">atmosphere</span></div></div><div class="b fl" onclick="this.classList.toggle('on')"><div class="ft">sinister<small>tap to flip</small></div><div class="bk"><h3>sinister</h3>seeming evil or harmful.<small>“A sinister laugh came from the cellar.”</small><span class="tag">literary</span></div></div><div class="b fl" onclick="this.classList.toggle('on')"><div class="ft">a curse<small>tap to flip</small></div><div class="bk"><h3>a curse</h3>magic words meant to bring bad luck or harm.<small>“They say a curse hangs over the house.”</small><span class="tag">noun / verb</span></div></div><div class="b fl" onclick="this.classList.toggle('on')"><div class="ft">to cast a spell<small>tap to flip</small></div><div class="bk"><h3>to cast a spell</h3>to use magic words on someone or something.<small>“The witch cast a spell on the village.”</small><span class="tag">collocation</span></div></div><div class="b fl" onclick="this.classList.toggle('on')"><div class="ft">to send shivers down your spine<small>tap to flip</small></div><div class="bk"><h3>send shivers down your spine</h3>to cause sudden fear.<small>“That whisper sent shivers down my spine.”</small><span class="tag">idiom</span></div></div><div class="b fl" onclick="this.classList.toggle('on')"><div class="ft">a gut feeling<small>tap to flip</small></div><div class="bk"><h3>a gut feeling</h3>an instinct without clear proof.<small>“I had a gut feeling someone was there.”</small><span class="tag">idiom</span></div></div></div><h3 style="margin-top:26px">More words &amp; phrases</h3>
+<div class="w">
+
+<p><b>unsettling</b> — making you uneasy. <i>There was something unsettling about his smile.</i></p>
+<p><b>spine-chilling</b> — extremely frightening. <i>A spine-chilling story.</i></p>
+<p><b>haunting</b> — staying in your mind (scary or beautiful). <i>A haunting melody.</i></p>
+<p><b>creepy</b> (informal) — skin-crawling. <i>The doll was creepy.</i></p>
+
+<p><b>supernatural / folklore</b> — beyond science / traditional community stories. <i>Local folklore says the lake is cursed.</i></p>
+<p><b>witchcraft · a spell · a curse</b> — magic practice · magic words · magic harm. <i>She was accused of witchcraft.</i></p>
+<p><b>to summon · to cast a spell</b> — to call something to appear · to use magic words. <i>She cast a spell on the village.</i></p>
+<p><b>to be cursed</b> — to have terrible luck. <i>The family felt cursed.</i></p>
+
+<p><b>to have a gut feeling · a sixth sense</b> — instinct without proof. <i>I had a gut feeling someone was there.</i></p>
+<p><b>to be on edge</b> — nervous, unable to relax. <i>I was on edge all night.</i></p>
+</div>
+<div class="b o" style="margin-top:18px"><b>Guess it:</b> “The fog made the forest look ___ and silent.” <button class="btn gh" onclick="this.nextElementSibling.classList.add('on');this.remove()">Reveal</button><span class="rev"><b style="color:var(--or)">eerie</b></span><br>“I couldn’t sleep, I was completely ___ after the noise.” <button class="btn gh" onclick="this.nextElementSibling.classList.add('on');this.remove()">Reveal</button><span class="rev"><b style="color:var(--or)">on edge</b></span></div>
+<div class="tn"><b>Goal:</b> precise vocabulary for mood, used in speech rather than memorised. Ask her to guess meanings and personalise a few (“When were you last on edge?”). Usage: <i>creepy</i> is informal; <i>haunting</i> can be positive; <i>summon</i> /ˈsʌmən/.</div></section>
+
+<section id="dare"><div class="k">III · Speaking · 6 min</div><h2>Would you dare?</h2>
+<div class="g"><div class="b o">🕯️ Would you spend a night in a supposedly haunted house?</div><div class="b o">📖 Would you read a spell from an ancient book if you knew nothing about it?</div><div class="b o">🌑 Would you investigate a strange noise in the middle of the night?</div><div class="b o">👁️ Would you rather know the truth about something supernatural or remain unaware?</div></div>
+<p class="hint">Justify, imagine consequences, and use the new words.</p>
+<div class="tn"><b>Goal:</b> hypothetical language and justification. Don’t correct mid-sentence. Prompt: “What if you were alone?”. Open topic: ignorance vs. truth (Plato’s cave).</div></section>
+
+<section id="hist"><div class="k">IV · Reading &amp; Culture · 10 min</div><h2>Witches: Myth, History &amp; Fear</h2>
+<div class="b o"><p><b>Before you read:</b> pointy hat, broom, cauldron… where does this image come from? Is it true?</p><textarea placeholder="Your hypothesis…"></textarea><p>📖 Source: <a href="https://www.history.com/articles/history-of-witches" target="_blank" rel="noopener">https://www.history.com/articles/history-of-witches</a></p></div>
+<div class="tl">
+<div><b>Biblical times</b>1 Samuel: King Saul asks the Witch of Endor to summon the spirit of the prophet Samuel.</div>
+<div><b>1400s</b>Witch hysteria grows in medieval Europe. Many accused confessed, often under torture.</div>
+<div><b>1486</b><i>Malleus Maleficarum</i> (“The Hammer of Witches”): a guide to identifying, hunting and interrogating witches.</div>
+<div><b>1500–1660</b>Up to 80,000 suspects executed in Europe, around 80% of them women.</div>
+<div><b>1647</b>Alse Young: first person executed for witchcraft in the American colonies.</div>
+<div><b>1692</b>Salem: about 150 accused, 19 executed. Six of those executed were men.</div>
+<div><b>1706–1730</b>Grace Sherwood’s “water test”; a satirical article mocks witch trials. Mania fades.</div>
+<div><b>Today</b>Many witches practise Wicca (“harm none”). Persecution of people accused of witchcraft still happens in some places.</div></div>
+<div class="g"><div class="b"><h3>Check your understanding</h3><p class="q">1. Who were many accused “witches” in reality?<br>2. What was <i>Malleus Maleficarum</i>?<br>3. Why did panic spread in Salem?<br>4. What do modern Wiccans believe?</p><textarea placeholder="In your own words…"></textarea></div>
+<div class="b"><h3>Fact, belief or interpretation?</h3><p class="q">a) Salem’s trials were in 1692.<br>b) Witches served the Devil.<br>c) Witch hunts were a way to control people on society’s margins.</p><textarea placeholder="Sort them and explain…"></textarea></div></div>
+<div class="tn"><b>Answers (factual):</b> 1) Natural healers, “wise women”, misunderstood. 2) 1486 manual for hunting and interrogating witches. 3) Mass hysteria in a tense climate: wars, smallpox, fear, scapegoating. 4) “Harm none”, peace, balance with nature; Book of Shadows. <b>Sorting:</b> a = fact, b = belief, c = interpretation (accept reasoned alternatives). Never say that all the accused practised magic or that all victims were women.</div></section>
+
+<section id="women"><div class="k">V · Culture &amp; Society · 12 min</div><h2>Witches &amp; Women: Who was feared?</h2>
+<p>According to the article, single women, widows and women on the margins of society were especially targeted. Here is the big question: <i>was fear of witches also fear of women who didn’t fit the rules?</i></p>
+<div class="g"><div class="b o"><h3>Then</h3><p>Women who were healers, poor, alone, or outspoken could be easily blamed.</p></div><div class="b o"><h3>A turning point</h3><p>Later writers and activists began to <b>reclaim</b> the witch as a symbol of female independence and resistance.<br><span class="hint">(Interpretation, not from the article. Discuss it critically.)</span></p></div><div class="b o"><h3>Now</h3><p>From fairy-tale villain to empowered heroine on screen and in books. Real accusations still exist.</p></div></div>
+<div class="g"><div class="b">Why might a society fear women who are independent, knowledgeable or different?<textarea></textarea></div><div class="b">Is “witch” still used today as an insult for powerful women? Where do you see it?<textarea></textarea></div><div class="b">Think of women in <i>Gilmore Girls</i>, <i>Sex and the City</i>, <i>13 Going on 30</i> or <i>Uptown Girls</i>. How do they challenge expectations?<textarea></textarea></div><div class="b">Have witches become empowering, or have we simplified them? What’s the difference between being <b>feared</b> and being <b>misunderstood</b>?<textarea></textarea></div></div>
+<div class="b" style="margin-top:14px"><h3>Academic words</h3><div class="chips"><span><b>social stigma</b> — disapproval of a group</span><span><b>scapegoat</b> — a person blamed for others’ problems</span><span><b>persecution</b> — cruel treatment for identity or beliefs</span><span><b>mass hysteria</b> — shared panic</span><span><b>to reclaim</b> — to take back and give new meaning</span><span><b>cultural representation</b> — how a group is shown</span></div></div>
+<div class="tn"><b>Goal:</b> abstract argumentation, social analysis. Be careful: the article gives data (women were most of those executed; single women and widows were targeted), but linking witch hunts to women’s emancipation is an interpretation. Make that distinction explicit with her. Open paths: scapegoating (Girard), economic and social control, Gilmore/Sex and the City as modern “unruly women”, risk of commercialising the “witch” image. Keep teacher talking under 30%.</div></section>
+
+<section id="hour"><div class="k">VI · Immersion · 7 min</div><h2>The Witching Hour: What Would You Do?</h2>
+<div class="b o"><p class="sub" style="color:var(--ink)">It’s 11:47 p.m. You’re staying in an old cottage near a forest. The lights suddenly go out. You hear footsteps upstairs, even though you’re certain you’re alone. On the table, there’s an old book with your name written on its first page.</p></div>
+<div class="g">
+<div class="b"><button class="btn" onclick="this.nextElementSibling.classList.add('on');this.remove()">Clue 1</button><div class="rev"><b>You hear someone whispering your name. What do you do?</b><textarea></textarea></div></div>
+<div class="b"><button class="btn" onclick="this.nextElementSibling.classList.add('on');this.remove()">Clue 2</button><div class="rev"><b>The book opens by itself. Do you read it or walk away?</b><textarea></textarea></div></div>
+<div class="b"><button class="btn" onclick="this.nextElementSibling.classList.add('on');this.remove()">Clue 3</button><div class="rev"><b>You find a photograph of someone who looks exactly like you. How do you react?</b><textarea></textarea></div></div>
+<div class="b"><button class="btn" onclick="this.nextElementSibling.classList.add('on');this.remove()">Clue 4</button><div class="rev"><b>You discover that the previous owner disappeared mysteriously. What do you investigate first?</b><textarea></textarea></div></div></div>
+<div class="g"><div class="b"><h3>Clues</h3><textarea placeholder="What do you know?"></textarea></div><div class="b"><h3>Hypotheses</h3><textarea placeholder="What could explain it?"></textarea></div></div>
+<p class="chips hint"><span>If I were in that situation, I would…</span><span>My first instinct would be to…</span><span>It is possible that…</span><span>I suspect that…</span><span>What makes this even more unsettling is…</span><span>Had I known that…, I would have…</span></p>
+<div class="tn">Read the scenario aloud and ask her to describe the room before any decision. The phrases are a quiet safety net, not a fill-in exercise. Open paths: rational explanations (wind, prank, previous owner) vs. supernatural; the look-alike photo (ancestor, hoax, doppelgänger). Note which structures she uses naturally.</div></section>
+
+<section id="reddit"><div class="k">VII · Reading session · 12 min</div><h2>Real-Life Horror Stories: You Decide What’s Terrifying</h2>
+<div class="b o"><p>Open the thread and read the stories on Reddit:</p><p><a href="https://www.reddit.com/r/AskReddit/comments/751w1y/with_halloween_coming_up_what_is_your_story_of/" target="_blank" rel="noopener">https://www.reddit.com/r/AskReddit/comments/751w1y/with_halloween_coming_up_what_is_your_story_of/</a></p></div>
+<div class="g"><div class="b"><h3>Step 1 — Read</h3>Choose a few stories from the Reddit thread and read them carefully.</div><div class="b"><h3>Step 2 — Investigate</h3>What exactly happened? Which detail made it unsettling? Believable or not? A rational explanation? What would you have done?</div><div class="b"><h3>Step 3 — React</h3>React spontaneously, with no prepared answers.</div><div class="b"><h3>Step 4 — Rate</h3>After the last story, rank your favourites.</div></div>
+<div class="g"><div class="b"><h3>Story 1</h3><input placeholder="Title / username"><textarea placeholder="What happened? Unsettling detail? Rational explanation?"></textarea></div><div class="b"><h3>Story 2</h3><input placeholder="Title / username"><textarea></textarea></div><div class="b"><h3>Story 3</h3><input placeholder="Title / username"><textarea></textarea></div></div>
+<div class="tn"><b>⚠️ Before class:</b> I couldn’t open the Reddit page while preparing this site, so I haven’t read it and can’t vouch for its content. Open the thread beforehand, select 3–5 stories, skip anything graphic, violent or traumatic, and don’t assume stories are true or supernatural. Read live from the original link without copying text into the page. If the page won’t load, she can retell a scary story she knows. After each story: she reacts first, then you ask one follow-up. Open paths: unreliable narrators, urban legend patterns, pareidolia and cognitive bias.</div></section>
+
+<section id="rank"><div class="k">VII · Interactive ranking · 5 min</div><h2>The Ultimate Horror Ranking: Top 3</h2>
+<div class="g"><div class="b o"><div class="big" style="font-size:2.5rem">🥇</div><h3>1st Place — The Most Terrifying Story</h3><input placeholder="Title / username"><textarea placeholder="Why did it win?"></textarea></div><div class="b"><div class="big" style="font-size:2.5rem">🥈</div><h3>2nd Place — The Runner-Up</h3><input placeholder="Title / username"><textarea placeholder="Why this one?"></textarea></div><div class="b"><div class="big" style="font-size:2.5rem">🥉</div><h3>3rd Place — Honorable Mention</h3><input placeholder="Title / username"><textarea placeholder="Why does it deserve a mention?"></textarea></div></div>
+<h3 style="margin-top:28px">Defend your ranking (use evidence from the stories)</h3>
+<div class="g"><div class="b">What made your first-place story more frightening than the others?<textarea></textarea></div><div class="b">Did you rank by how realistic they were or how disturbing they felt?<textarea></textarea></div><div class="b">Which story would make the best horror movie?<textarea></textarea></div><div class="b">Which story will stay in your mind the longest?<textarea></textarea></div><div class="b">Did any story change your understanding of what makes something scary?<textarea></textarea></div></div>
+<div class="tn">Don’t choose for her. Push for specific evidence: “Which exact detail?”. Paths: realism vs. disturbing effect; suggestion vs. gore; cinematic potential. Feedback: argumentation, vocabulary range, naturalness.</div></section>
+
+<section id="final"><div class="k">VIII · Final speaking · 6 min</div><h2>What makes us afraid?</h2>
+<div class="g"><div class="b o">Why are humans attracted to frightening stories?</div><div class="b o">Is fear always irrational?</div><div class="b o">Why do people sometimes believe in supernatural explanations?</div><div class="b o">Can horror stories reveal something about the society in which they were created?</div><div class="b o">Why have witches been portrayed differently across historical periods?</div><div class="b o">What is more frightening: something we understand or something we cannot explain?</div></div>
+<h3 style="margin-top:30px;text-align:center">The 90-Second Horror Take</h3><div class="tm" id="tm">1:30</div><p style="text-align:center"><button class="btn" onclick="tmr()">Start / reset</button></p>
+<div class="g"><div class="b"><ol style="margin:0;padding-left:20px"><li>State your opinion.</li><li>Explain your reasoning.</li><li>Give a specific example from the lesson.</li><li>Consider an alternative perspective.</li><li>Finish with a clear conclusion.</li></ol></div><div class="b chips hint"><span>from my perspective</span><span>to some extent</span><span>nevertheless</span><span>this suggests that</span><span>ultimately</span></div></div>
+<div class="b o" style="margin-top:14px"><h3>One word to take with you</h3><textarea placeholder="A new word + your own sentence…"></textarea></div>
+<div class="tn">She chooses one question and speaks without a script. Don’t interrupt. Feedback on naturalness, vocabulary, clarity and argumentation: praise first, then 2–3 recurring errors you noted, then one stretch goal (e.g. concession structures). Optional homework: a 150-word first-person horror paragraph. Close: <b>Happy Halloween! 🐈‍⬛</b></div></section>
+<script>
+let T=null;function tmr(){clearInterval(T);let t=90;const e=document.getElementById("tm");e.textContent="1:30";T=setInterval(()=>{t--;e.textContent=Math.floor(t/60)+":"+String(t%60).padStart(2,"0");if(t<=0)clearInterval(T)},1000)}
+</script></body></html>
